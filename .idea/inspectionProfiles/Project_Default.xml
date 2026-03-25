@@ -1,0 +1,33 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <list>
+          <option value="annotated-types" />
+          <option value="anyio" />
+          <option value="certifi" />
+          <option value="flet" />
+          <option value="h11" />
+          <option value="httpcore" />
+          <option value="httpx" />
+          <option value="idna" />
+          <option value="numpy" />
+          <option value="oauthlib" />
+          <option value="pydantic" />
+          <option value="repath" />
+          <option value="six" />
+          <option value="sniffio" />
+          <option value="typing-inspection" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="flet.*" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
