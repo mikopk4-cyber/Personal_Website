@@ -10,8 +10,8 @@
 </head>
 <style>
     body {
-    background-image: url("/static/New2.png");
-    position: relative;
+background-image: url("{{ url_for('static', filename='New2.png') }}");
+position: relative;
     }
 h3 {
 color: maroon;
